@@ -1,0 +1,4 @@
+{
+    $selection = `ls -sl`;
+    doMenuComponentSelectionExt($selection[0], "vertex", 1);
+}
