@@ -1,0 +1,6 @@
+{
+    $selection=`ls -sl`;
+    float $p[] = `xform -q -ws -piv $selection[0]`;
+    
+    print $p;
+}
