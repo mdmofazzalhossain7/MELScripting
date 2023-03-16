@@ -1,0 +1,8 @@
+{
+    string $obj[]=`ls -sl`;
+    string $shadingEngines[] = listConnections("-type","shadingEngine", $obj[0]);
+    hyperShade  -smn "";
+    string $mat[] = `ls -sl`;
+    
+    print $mat;
+}
