@@ -1,0 +1,4 @@
+{
+    changeSelectMode -component;
+    selectType -polymeshVertex true;
+}
